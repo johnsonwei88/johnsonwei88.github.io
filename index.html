@@ -1,15 +1,114 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B02204028-魏孫正</title>
-</head>
-<body>
-    
-    <h1>Hello World!</h1>
 
-    <a href="http://www.google.com.tw">Google</a>
+<head>
+  <meta charset="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Health">
+  <meta name="author" content="Johnsonwei">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Health Helper</title>
+</head>
+
+<body>
+
+
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="Topic">
+    <div class="Topic 1">
+      <h1>健康管理小幫手</h1>
+      <p>這個網站可以幫助您進行一些簡單的健康管理</p>
+    </div>
+  </div>
+
+  <div class="Health monitoring tools ">
+    <!-- Example row of columns -->
+    <div class="BMI">
+    </div>
+
+    <div class="form-group row">
+      <h2>BMI 計算器</h2>
+      <p>這個部分可以幫助您計算您的BMI值。標準如下： 過重：24
+        <=BMI<27 輕度肥胖：27 <=B MI < 30 中度肥胖：30 <=B MI < 35 重度肥胖：BMI>= 35
+      </p>
+      <label for="example-number-input" class="col-2 col-form-label">身高 (公分)</label>
+      <div class="col-10">
+        <input class="form-control" type="number" value="185" id="height">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-number-input" class="col-2 col-form-label">體重 (公斤)</label>
+      <div class="col-10">
+        <input class="form-control" type="number" value="85" id="weight">
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary">計算</button>
+
+    <div class="form-group row">
+      <label for="example-number-input" class="col-2 col-form-label">計算結果</label>
+      <div class="col-10">
+        <input class="form-control" type="number" id="result">
+
+        <!--<div class="col-md-4">
+        <h2>BMI 計算器</h2>
+        <p>這個部分可以幫助您計算您的BMI值。標準如下： 
+          過重：24<=BMI<27 輕度肥胖：27 <=B MI < 30 中度肥胖：30 <=B MI < 35 重度肥胖：BMI>= 35
+        </p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      </div>-->
+           </div>
+
+        <div class="form-group row">
+            <h2>卡洛里計算器</h2>
+          <p>您可以在此計算整天總共吸收了多少熱量。
+          </p>
+            <label for="example-number-input" class="col-2 col-form-label">攝取熱量(大卡)</label>
+            <div class="col-10">
+                <input class="form-control" type="number" value="1500" id="absorb">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="example-number-input" class="col-2 col-form-label">消耗熱量(大卡)</label>
+            <div class="col-10">
+                <input class="form-control" type="number" value="1500" id="consume">
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary">計算</button>
+
+        <div class="form-group row">
+            <label for="example-number-input" class="col-2 col-form-label">計算結果</label>
+            <div class="col-10">
+                <input class="form-control" type="number" id="result">
+
+        <!--<div class="Calorie">
+          <h2>卡洛里計算器</h2>
+          <p>您可以在此計算整天總共吸收了多少熱量。
+          </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>-->
+        <div class="Advice Giver">
+          <h2>健康小叮嚀</h2>
+          <p>如您的BMI過高，請多運動並攝取少油少鹽的食物</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+    <!-- /container -->
+
+
+
 </body>
+
 </html>
